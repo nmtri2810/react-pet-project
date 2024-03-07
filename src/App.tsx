@@ -1,9 +1,11 @@
-import Counter from './features/counter/Counter'
+import GithubIssue from './app/home/GithubIssue'
+import HomePage from './app/home/HomePage'
 
 function App() {
   return (
-    <div className='bg-sky-400 h-screen flex justify-center items-center'>
-      <Counter></Counter>
+    <div>
+      <HomePage></HomePage>
+      <GithubIssue></GithubIssue>
     </div>
   )
 }
